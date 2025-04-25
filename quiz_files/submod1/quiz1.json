@@ -1,0 +1,126 @@
+[
+    {
+        "question": "Below are the results from a BLAST search on the protein data bank database using the protein sequence of an enzyme from Mycobacterium tuberculosis. What can you conclude from the results obtained? <br> <table border='1'><tr><th>Description</th><th>Scientific name</th><th>Query cover</th><th>Percent identity</th><th>Accession</th></tr><tr><td>Chain A protein kinase</td><td>B. subtilis</td><td>85%</td><td>55.28%</td><td>4SD8_A</td></tr><tr><td>Chain A protoporphyrin IX oxidoreductase</td><td>E. coli</td><td>92%</td><td>53.91%</td><td>1ER9_A</td></tr><tr><td>Chain A protein phosphatase</td><td>E. coli</td><td>95%</td><td>45.81%</td><td>9ZX9_A</td></tr><tr><td>Chain A peptide synthetase</td><td>T. pestis</td><td>81%</td><td>36.29%</td><td>36VB_A</td></tr><tr><td>Chain A Cytochrome P450</td><td>S. typhimurium</td><td>96%</td><td>25.66%</td><td>67A1_A</td></tr><tr><td>Chain A proline isomerase</td><td>M. tuberculosis</td><td>71%</td><td>21.38%</td><td>4T7R_A</td></tr></table>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "None of these are suitable search models for molecular replacement",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Chain A Cytochrome p450 is the best search model since it has the highest query cover",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Chain A proline isomerase is the best choice since this structure is also seen in M. tuberculosis",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "The first hit is the best choice for a search model, but Chain A protoporphyrin IX oxidoreductase may also work as well.",
+                "correct": true,
+                "feedback": "Go by percent identity. Anything over 50% should be suitable for molecular replacement. Even Chain A protein phosphatase may work but given the options shown here the top two hits should be tried first."
+            },
+            {
+                "answer": "All hits are suitable since they showed up in the BLAST search",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    
+    {
+        "question": "Using BLAST to find a search model for a new enzyme with no structure does not turn up any hits of proteins that have structures with high enough sequence identity to be useful. Which of these is the best solution?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "This project is dead in the water, so pick something else to study.",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Grow derivatized protein using selenomethionine auxotrophs and attempt MAD or SAD phasing.",
+                "correct": true,
+                "feedback": "Correct, getting phases directly from the x-ray experiment will give the best maps but trying to use a predicted structure is worth a shot since it is quick and easy to do."
+            },
+            {
+                "answer": "Try entering the primary sequence into the AlphaFold server and use the predicted structure for molecular replacement.",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+
+    {
+        "question": "Increasing the pH of a buffer used to store a protein will make the surface of the protein more positive?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "False",
+                "correct": true,
+                "feedback": "Higher pH will result in a less positive surface as protons are removed from residues like histidine, arginine, and lysine."
+            }
+        ]
+    },
+
+    {
+        "question": "Which of the following parameters should be considered when optimizing crystallization conditions?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "pH",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Incubation temperature",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Precipitant concentration",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Drop size",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Protein concentration",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "All of the above",
+                "correct": true,
+                "feedback": "Since all of these parameters can affect crystal growth and quality"
+            }
+        ]
+    },
+
+    {
+        "question": "Proteins lacking large random coil regions and highly rotamerically flexible on their surface are harder to crystallize than more compact proteins with few large residues on their surface?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": "True. Conformationally flexible regions will inhibit the formation of crystals contacts making the protein difficult to crystallize."
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
