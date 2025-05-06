@@ -118,11 +118,22 @@ For submodule 4, you can install all necessary requirements using the instructio
 <center><img src='images/architecture_diagram.png', width='800'/></center>
 
 ## Data
+Data for the crystallography exercises are from the following PDBIDs and their assocaited publications:
+* 2A3N: Crystal structure of Putative glucosamine-fructose-6-phosphate aminotransferase (16423107) from SALMONELLA TYPHIMURIUM LT2 at 1.35 A resolution (To be published)
+* 5TSO: Novel Enhancer Binding Site Found In Bacteria And Eukaryota But Not In Archea (To be published)
+* 7DER: Acta Crystallogr D Struct Biol. 2021 Mar 1;77(Pt 3):288-292. Recent structural insights into the mechanism of lysozyme hydrolysis
+* 8AB3: Mol Biol Evol 2023 40. Deciphering Evolutionary Trajectories of Lactate Dehydrogenases Provides New Insights into Allostery
+* 3MJU: Crystal structure determination of pigeon (columba livia) haemoglobin at 3.5 angstrom resolution (To be published)
+* 7EBC: J Struct Biol 213 2021: 107748-107748. Structural insights into the targeting specificity of ubiquitin ligase for S. cerevisiae isocitrate lyase but not C. albicans isocitrate lyase
+* 7Q36: Commun Biol 5: 360-360 2022. High-pressure crystallography shows noble gas intervention into protein-lipid interaction and suggests a model for anaesthetic action.
+* 7O83: J Med Chem 65: 6940-6952 2022. Discovery of AZD4625, a Covalent Allosteric Inhibitor of the Mutant GTPase KRAS G12C
 
 
 ## Funding
 
-This work was fully supported by NIH NIGMS. Any opinions, findings, conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the funding agencies.
+We would like to acknowledge the sources of funding:<br>
+This work was supported by the Mississippi INBRE, funded by an Institutional Development Award (IDeA) from the National Institute of General Medical Sciences of the National Institutes of Health under grant number P20GM103476. Any opinions, findings, conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the funding agencies.
+
 
 ## **License for Data**
 Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix, and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it.
