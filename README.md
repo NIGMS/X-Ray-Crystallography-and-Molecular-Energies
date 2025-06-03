@@ -85,7 +85,7 @@ These tutorials are designed to run on AWS with the notebooks running within Sag
     - Open a terminal from the Jupyter interface.
     - Run the following command:
         - <code>**cd SageMaker**</code>
-        - <code>**git clone https://github.com/STRIDES-Codes/dsu-nigms-protein-structure.git**</code>
+        - <code>**git clone https://github.com/NIGMS/X-Ray-Crystallography-and-Molecular-Energies.git**</code>
     - This will create a folder containing all tutorial files.
 
 </details> <br>
