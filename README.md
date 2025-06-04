@@ -1,4 +1,6 @@
-<center><img src='images/MS-course-card.png', width='400'/></center>
+<p align="center">
+<img src="images/MS-course-card.png" width="400" />
+</p>
      
 # <center> **X-Ray Crystallography & Molecular Energies** </center>
 ### <center> **Authors: Dr. Christopher Jurgenson and Dr. Joseph Bentley** </center>
@@ -21,6 +23,15 @@
 ## Overview
 
 This cloud-based learning module teaches x-ray crystallography and molecular energy basics. The x-ray crystallography tutorial will be carried out threw the Phenix software. After going through this the user should be comfortable with the process of determining the protein structure. Additionally, the user should be comfortable with basic quantum chemistry concepts used to perform biochemistry modeling.
+
+
+<p align="center">
+        <a href="https://www.youtube.com/watch?v=FapVSYz_cms&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b&index=25">
+            <img src="images/overview_video.png" alt="Overview", width="550"/>
+        </a>
+    <br>
+    <span> Click above image to watch overview video </span>
+</p>
 
 The course is structured in four submodules, allowing us to:
 1. Gain a basic understanding of proteins and x-ray diffraction/crystallography
@@ -74,10 +85,21 @@ These tutorials are designed to run on AWS with the notebooks running within Sag
     - Open a terminal from the Jupyter interface.
     - Run the following command:
         - <code>**cd SageMaker**</code>
-        - <code>**git clone https://github.com/STRIDES-Codes/dsu-nigms-protein-structure.git**</code>
+        - <code>**git clone https://github.com/NIGMS/X-Ray-Crystallography-and-Molecular-Energies.git**</code>
     - This will create a folder containing all tutorial files.
 
-</details>
+</details> <br>
+
+You can also watch the AWS notebook setup video below for step-by-step instructions:
+<p align="center">
+        <a href="https://www.youtube.com/watch?v=djLo0L3147s&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b">
+            <img src="images/aws_notebook_setup_thumbnail.jpeg" alt="Creating an AWS SageMaker Notebook Instance", width="550"/>
+        </a>
+    <br>
+    <span> Click above image to watch notebook setup video </span>
+</p><br>
+
+
 
 <details>
 <summary> Registering For Phenix Account</summary>
