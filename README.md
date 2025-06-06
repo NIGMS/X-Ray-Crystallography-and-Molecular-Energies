@@ -1,11 +1,12 @@
-<p align="center">
-<img src="images/MS-course-card.png" width="400" />
-</p>
      
 # <center> **X-Ray Crystallography & Molecular Energies** </center>
 ### <center> **Authors: Dr. Christopher Jurgenson and Dr. Joseph Bentley** </center>
 
 ---
+
+<p align="center">
+<img src="images/MS-course-card.png" width="400" />
+</p>
 
 ## Contents
 
