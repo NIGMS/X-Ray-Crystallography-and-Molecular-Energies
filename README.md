@@ -60,7 +60,7 @@ These tutorials are designed to run on AWS with the notebooks running within Sag
 ## Getting Started 
 
 <details>
-    <summary> Setting Up AWS </summary>
+    <summary> [Setting Up AWS Sagemaker AI](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/SageMakerNotebook%26StudioSetup.md) </summary>
     
 **1. Setting Up an AWS SageMaker Notebook Instance**
 - Log in to AWS Management Console:
