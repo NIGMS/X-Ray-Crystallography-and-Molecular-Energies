@@ -60,9 +60,12 @@ These tutorials are designed to run on AWS with the notebooks running within Sag
 ## Getting Started 
 
 <details>
-    <summary> [Setting Up AWS Sagemaker AI](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/SageMakerNotebook%26StudioSetup.md) </summary>
+    <summary> Setting Up AWS Sagemaker AI </summary>
     
 **1. Setting Up an AWS SageMaker Notebook Instance**
+
+You can also reference [this guide](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/SageMakerNotebook%26StudioSetup.md).
+
 - Log in to AWS Management Console:
     - Navigate to the AWS SageMaker Console (Find **Amazon SageMaker AI** in the Services, or search it in the search bar)
 - Create a SageMaker Notebook Instance:
